@@ -60,7 +60,7 @@ jobs:
         username: ${{github.actor}}
         password: ${{secrets.TOKEN_FOR_GITHUB}}
         registry: docker.pkg.github.com
-        repostitory: L00170155/devpps-pipelines-labbook3
+        repostitory: L00170155/devpps-pipelines-labbook3/tic-tac-toe
         tag_with_sha: true
       
     
