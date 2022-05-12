@@ -20,7 +20,8 @@ jobs:
         with:
           name: webpack artifacts
           path: public/
- test:
+
+  test:
     runs-on: ubuntu-latest
     needs: build
     strategy:
@@ -45,7 +46,7 @@ jobs:
         env:
           CI: true
 
- build-and-push-image:
+  build-and-push-image:
       runs-on: ubuntu-latest
       needs: test
       permissions:
